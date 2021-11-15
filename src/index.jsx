@@ -5,14 +5,33 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import logo from './react.png';
 
-const rootNode = document.getElementById("root");
-const reactLogo = (
-  <div>
-    <img alt="" src={logo} width="40px" />
-  </div>
-)
 
-ReactDOM.render(reactLogo, rootNode);
+
+function AlreadyKnow() {
+  return (
+    <ol>
+      <li>It's fast</li>
+      <li>Maintained by Meta</li>
+      <li>Meta is the FUTURE</li>
+      <li>But really, if there is a future they are gonna be a huge part of it.</li>
+    </ol>
+  )
+};
+
+const root = document.getElementById('root');
+
+ReactDOM.render(<AlreadyKnow />, root);
+
+
+
+
+
+
+
+
+
+
+
 
 // ReactDOM.render(
 //   <React.StrictMode>
