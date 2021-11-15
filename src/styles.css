@@ -27,6 +27,30 @@ nav {
   height: 40px;
   margin-right: 7px;
 }
+/* this is a bit broken cause i dont have same image */
+main {
+  padding: 57px 27px;
+  color: #FFFFFF;
+  background-image: url('./images/react-gray.png');
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main--ul {
+  margin-top: 46px;
+  max-width: 400px;
+}
+.main--ul > li {
+  padding-block: 10px;
+}
+.main--ul > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
 
 /*TILT*/
 /* credit: Joshua Johnson https://designshack.net/articles/css/joshuajohnson-2/ */
